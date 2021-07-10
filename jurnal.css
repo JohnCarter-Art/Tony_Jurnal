@@ -22,3 +22,35 @@ h2 {
 blockquote {
     font-style: italic;
 }
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+.cellcollor {
+    background-color: #fcba7a;
+}
+td, th {
+    border: thin dotted gray;
+    padding: 5px;
+}
+caption {
+    font-style: italic;
+    padding-top: 8px;
+}
+td.td_center {
+    text-align: center;
+}
+td.td_right {
+    text-align: right;
+}
+th.orange {
+    background-color: #cc6600;
+}
+li {
+    list-style-image: url(images/backpack.gif);
+    padding-top: 5px;
+    margin-left: 20px;
+}
